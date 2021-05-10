@@ -1,6 +1,6 @@
 1. git clone : kéo dự án trên server về máy tính.
 2. git init: khởi tạo thư mục git local.
-3. git status: để kiểm tra status của file.git 
+3. git status: để kiểm tra status của file git.
 4. git add. : đưa tất cả các file có sự thay đổi vào vùng staging.
 5. git add [tên_file]: đưa 1 file có sự thay đổi vào vùng staging.
 6. git rm -cached <file>: đưa 1 file từ staging vào ngược lại vùng working directory
@@ -13,3 +13,19 @@
 13. git checkout -b "tên branch", git branch branchA: Tạo branch.
 14. git checkout -b "tên branch": vừa tạo vừa di chuyển qua branch.
 15. git checkout "tên branch": di chuyển qua branch.
+16.
+17. git add.
+18.git commit -m "comment"
+19. git push.
+
+-- Nếu bị conflict --
+Code up lên sẽ được so sánh với code của mastẻ 
+B1: git checkout master
+Phải pull code trên master
+B2: git pull
+Sau đó master và code của bạn đã cùng nhau rồi nhưng phải merge code của master vào branch của bạn để cùng code với master
+B3: git checkout branchA
+B4: git merge master (Phải đứng ở brach của mình)
+Accept Current Change - Lấy code của mình.
+Accept Incoming Change - Lấy code của người ta vào code mình.
+Accept Both change - Lấy cả 2.
