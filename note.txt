@@ -3,3 +3,9 @@
 3. git status: để kiểm tra status của file.
 4. git add. : đưa tất cả các file có sự thay đổi vào vùng staging.
 5. git add [tên_file]: đưa 1 file có sự thay đổi vào vùng staging.
+6. git rm -cached <file>: đưa 1 file từ staging vào ngược lại vùng working directory
+7. git config --global user.email "buiminhquang188@gmail.com": set email
+8. git config --global user.name "Minh Quang" : set tên.
+9. git commit -m "message": đưa các file có sự thay đổi sang vùng local repo (thư mục git).
+10. git remote add origin https://github.com/buiminhquang188/demo-git2.git : connect với server github.
+11. git push : đẩy code lên github. 
